@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Account Deactivation Form</title>
+	<style>
+		h1{
+			background-color: black;
+			color: white;
+			text-align: center;
+		}
+		label,input,select{
+		margin-left: 10px;
+	}
+	form{
+		height: auto;
+		width: 300px;
+		border:0.5px solid black;
+		}
+	div{
+		margin-left: 38%;
+	}
+	button{
+		margin-left:50%;
+		background-color: green;
+		color: white;
+		height: 30px;
+		width: 150px;
+	}
+	</style>
+</head>
+<body>
+	<h1>Account Deactivation Form</h1>
+	<div>
+	<form>
+		<label for="name">Name:</label><br>
+			<input type="text" id="name" placeholder="Enter your name"><br><br>
+		<label for="mail">E-Mail:</label><br>
+			<input type="E-mail" id="mail" placeholder="Enter your mail-id"><br><br>
+		<label for="num">Contact Number:</label><br>
+			<input type="text" id="num" placeholder="Enter your Contact number"><br><br>
+
+		<label for="acc">Account Type:</label><br>
+			<select >
+				<option value="Public">Public</option>
+				<option value="Private">Private</option>
+			</select>
+			<br><Br>
+			<label for="rea">Reason for deactivation:</label><br>
+			<textarea cols="30" rows="5" style="margin-left: 10px;"></textarea>
+			<label for="add">Additional Comments:</label><br>
+			<textarea cols="30" rows="5" style="margin-left: 10px;"></textarea>
+			<br>
+	</form>
+</div>
+<br>
+<button>SUBMIT</button>
+</body>
+</html>
